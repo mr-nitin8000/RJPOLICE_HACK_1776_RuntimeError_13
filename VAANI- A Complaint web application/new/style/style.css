@@ -165,12 +165,12 @@ img {
 .card {
   background-color: #e5e7e9;
   width: 100%;
-  height: 40rem;
+  max-height: 35rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .card-a:hover .card-img {
@@ -179,14 +179,13 @@ img {
 
 .left-card {
   width: 100%;
-  height: auto;
+  height: 50%;
   overflow: hidden;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 10px black;
 }
 
 .card-img {
@@ -198,7 +197,6 @@ img {
 .right-card {
   background-color: #e5e7e9;
   width: 100%;
-  height: 50%;
   display: flex;
   gap: 1rem;
   flex-direction: column;
